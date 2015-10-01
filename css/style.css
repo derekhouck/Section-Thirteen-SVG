@@ -234,9 +234,9 @@ object {
   width: 25%; }
 
 #lowerbar {
-  -webkit-transform-origin: 50% 50%;
-      -ms-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  -webkit-transform-origin: 74.5px 241.2px;
+      -ms-transform-origin: 74.5px 241.2px;
+          transform-origin: 74.5px 241.2px;
   -webkit-animation: rotate 3s ease infinite alternate;
           animation: rotate 3s ease infinite alternate; }
 
