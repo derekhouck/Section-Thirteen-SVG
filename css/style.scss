@@ -1,0 +1,67 @@
+@import 'normalize';
+
+body	{
+	padding: 20px;
+}
+main	{
+	max-width: 60em;
+	ul	{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		li	{
+			flex: none;
+			width: 100%;
+		}
+	}
+}
+object	{
+	width: 100%;
+}
+#responsive-large	{
+	object	{
+		width: 600px;
+	}
+}
+#responsive-small	{
+	object	{
+		width: 300px;
+	}
+}
+@media screen and (min-width: 600px)	{
+	main	{
+		ul	{ 
+			li	{
+				width: 45%;
+			}
+		}
+	}
+}
+
+/* Example 2 */
+#example2	{
+	ul	{
+		li	{
+			width: auto;
+		}
+	}
+}
+
+/* Example 3 */
+#example3	{
+	object	{
+		width: 25%;		
+	}
+}
+#lowerbar	{
+	transform-origin: 50% 50%;
+	animation: rotate 3s ease infinite alternate;
+}
+@keyframes rotate	{
+	50% {
+		transform: rotate(270deg);
+	}
+}
